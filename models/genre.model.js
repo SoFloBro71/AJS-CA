@@ -1,7 +1,7 @@
 
 const { Schema, model } = require('mongoose');
 
-const franchiseSchema = new Schema({
+const genreSchema = new Schema({
     title: {
         type: String,
         required: [true, 'Title field is required'],
@@ -9,4 +9,4 @@ const franchiseSchema = new Schema({
 
 }, {timestamps: true});
 
-module.exports = model('Franchise', franchiseSchema);
+module.exports = model('Genre', genreSchema);

@@ -8,7 +8,7 @@ const {
     createData,
     updateData,
     deleteData
-} = require('../controllers/platform.controller');
+} = require('../controllers/game_platform.controller');
 
 router.get('/', readAll);
 router.get('/:id', loginRequired, readOne);

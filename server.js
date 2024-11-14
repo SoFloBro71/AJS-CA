@@ -38,9 +38,9 @@ app.use((request, response, next) => {
     // return res.status(200);
 });
 
-////////////////////////////////////////////
+/////////////////////////////////////////////
 
-// ROUTES
+// ROUTES 
 
 app.use('/api/users', require('./routes/users'));
 app.use('/api/games', require('./routes/games'));
