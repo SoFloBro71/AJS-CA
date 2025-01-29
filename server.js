@@ -14,7 +14,7 @@ app.use(express.static(__dirname + '/views/'))
 app.use((request, response, next) => {
     console.log('Time:', Date.now());
     next();
-});
+}); 
 
 ////// AUTHORIZATION ///////////////////////
 
